@@ -1,5 +1,4 @@
-:root {
-}
+
 
 /* GENERAL */
 html {
@@ -98,21 +97,20 @@ img {
   color: #FA5959;
 }
 
-.site-section {
+.site__section {
   padding-top: 190px;
   padding-bottom: 190px;
   background-image: url("../img/hero-bg.png");
   background-repeat: no-repeat;
   background-position:calc(50% + 600px) center;
-
 }
 
-.site-div {
+.site__div {
   width: 540px;
   margin-right: auto;
 }
 
-.site-title {
+.site__title {
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
@@ -121,7 +119,7 @@ img {
   color: #242A45;
 }
 
-.site-content {
+.site__content {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -131,7 +129,7 @@ img {
   margin-bottom: 32px;
 }
 
-.button-chrome {
+.button_chrome {
   padding: 10px 24px;
   font-weight: 500;
   font-size: 14px;
@@ -144,7 +142,7 @@ img {
   border: 2px solid transparent;
 }
 
-.button-firefox {
+.button_firefox {
   padding: 10px 24px;
   background-color: #F7F7F7;
   color: #242A45;
@@ -153,14 +151,14 @@ img {
   border: 2px solid transparent;
 }
 
-.button-chrome:hover {
+.button_chrome:hover {
  border-color: #5267DF;
   background-color: #fff;
   color: #5267DF;
   transition: 0.5s ease;
 }
 
-.button-firefox:hover {
+.button_firefox:hover {
   border: 2px solid #5B6074;
   background-color: #fff;
   color: #5b6074;
@@ -338,7 +336,7 @@ img {
   content: "";
 }
 
-@media
+/* @media
   only screen and (-webkit-min-device-pixel-ratio: 2),
   only screen and (   min--moz-device-pixel-ratio: 2),
   only screen and (     -o-min-device-pixel-ratio: 2/1),
@@ -348,4 +346,4 @@ img {
   body {
     background-image: url("https://picsum.photos/id/870/2000");
   }
-}
+} */
