@@ -8,126 +8,113 @@
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
-  <title>Bookmark-maketi</title>assalomu alekum hammaga salom qalesila charchamayabsilarmi nima gabla tinchmi nima yangililar
+  <title>Bookmark-maketi</title>
 </head>
 <body>
-  <header class="site__header">
+  <header>
     <div class="container">
-      <nav class="sitenav">
-        <a class="site-header__logo logo" href="#">
-          <img class="logo__img" src="img/site-logo.svg" alt="Bookmark logo">
+      <nav class="site-header">
+        <a href="#" class="site-nav-left__link">
+          <img class="site-nav__img" src="./img/first-icon.svg" alt="" width="149" height="25">
         </a>
 
-        <ul class="sitenav__list">
-          <li class="sitenav__item">
-            <a class="sitenav__link" href="#">FEATURES</a>
-          </li>
-          <li class="sitenav__item">
-            <a class="sitenav__link" href="#">PRICING</a>
-          </li>
-          <li class="sitenav__item">
-            <a class="sitenav__link" href="#">CONTACT</a>
-          </li>
-          <li class="sitenav__item">
-            <a class="sitenav__link login" href="#">LOGIN</a>
-          </li>
+        <ul class="site-nav__right">
+          <li class="site-nav__item"><a class="site-nav-link" target="_blank" href="./features.html">FEATURES</a></li>
+          <li class="site-nav__item"><a class="site-nav-link" target="_blank" href="./pricing.html">PRICING</a></li>
+          <li class="site-nav__item"><a class="site-nav-link" target="_blank" href="./contact.html">CONTACT</a></li>
+          <li class="site-nav__item"><a class="site-nav-link site-nav-link__activa" href="#">LOGIN</a></li>
         </ul>
-      </nav>
+
+      </nav> 
     </div>
   </header>
-  <main class="site__main">
-    <section class="site__section">
-      <div class="container">
-        <div class="site__div">
-          <h1 class="site__title">A Simple Bookmark Manager</h1>
-          <p class="site__content">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
-          <a class="button_chrome" href="https://www.google.com/chrome/" target="_blank">Get it on Chrome</a>
-          <a class="button_firefox" href="https://www.mozilla.org/" target="_blank">Get it on Firefox</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="features__section">
-      <div class="container">
-        <header class="features">
-          <h2 class="features__title">Features</h2>
-          <p class="features__content">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
-        </header>
-        <ul class="features__list">
-          <li class="feature-tabs__item">
-            <button class="features__btn features__btn__simple" >Simple Bookmarking</button>
-          </li>
-          <li class="feature-tabs__item features-tabs__item--active">
-            <button class="features__btn features__btn__speedy" type="button">Speedy Searching</button>
-          </li>
-          <li class="feature-tabs__item">
-            <button class="features__btn features__btn__easy" type="button">Easy Sharing</button>
-          </li>
-        </ul>
-        <div class="features__item">
-          <h3 class="features__small__title">Bookmark in one click</h3>
-          <p class="features__small__content">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
-          <a class="features__link" href="#">More Info</a>
-        </div>
-
-      </div>
-    </section>
-
-    <section class="extensions">
-      <div class="container">
-        <header class="extensions__header">
-          <h2 class="extensions__title">Download the extension</h2>
-          <p class="extensions__desc">We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>
-        </header>
-
-        <ul class="extensions__list">
-          <li class="extensions__item extension extension--chrome">
-            <div class="extension__top">
-              <h3 class="extension__heading">Add to Chrome</h3>
-              <p class="extension__info">Minimum version 62</p>
-            </div>
-            <div class="extension__link-wrapper">
-              <a class="button button--blue button--block" href="#">Add & install extension</a>
-            </div>
-          </li>
-
-          <li class="extensions__item extension extension--firefox">
-            <div class="extension__top">
-              <h3 class="extension__heading">Add to Firefox</h3>
-              <p class="extension__info">Minimum version 62</p>
-            </div>
-            <div class="extension__link-wrapper">
-              <a class="button button--blue button--block" href="#">Add & install extension</a>
-            </div>
-          </li>
-
-          <li class="extensions__item extension extension--opera">
-            <div class="extension__top">
-              <h3 class="extension__heading">Add to Opera</h3>
-              <p class="extension__info">Minimum version 62</p>
-            </div>
-            <div class="extension__link-wrapper">
-              <a class="button button--blue button--block" href="#">Add & install extension</a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="bookmark-item">
-      <div class="bgc-right">
-        <div class="site-bookmark">
+  <main>
+    <section class="hero">
+      <div class="bgc-left">
+        <div class="site-hero">
           <div class="container">
-            <div class="site-bookmark__right">
-              <h2 class="hero-bookmark__heading">Bookmark in one click</h2>
-              <p class="bookmark-right__text">Organize your bookmarks however you like. Our simple drag-and-drop
-                interface gives you complete control over how you manage your favourite sites.</p>
-
-                <button class="btn button-more" type="button">More Info</button>
+            <div class="site-hero__right">
+              <h2 class="hero-right__heading">A Simple Bookmark Manager</h2>
+              <p class="hero-right__text">A clean and simple interface to organize your favourite websites. Open a new
+                browser tab and see your sites load instantly. Try it for free.</p>
+              <a class="hero-right__chrome" href="#">Get it on Chrome</a>
+              <a class="hero-right__firefox" href="#">Get it on Firefox</a>
             </div>
           </div>
         </div>
       </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <div class="features__header">
+          <h2 class="features__title">Features</h2>
+          <p class="features__desc">Our aim is to make it quick and easy for you to access your favourite websites.
+            Your bookmarks sync between your devices so you can access them on the go.</p>
+        </div>
+        <ul class="features-tabs">
+          <li class="features-tabs__item features-tabs__item--active">
+            <a class="features-tabs__link" href="#panel-1">Simple Bookmarking</a>
+          </li>
+
+          <li class="features-tabs__item">
+            <a class="features-tabs__link" href="#panel-2">Speedy Searching</a>
+          </li>
+
+          <li class="features-tabs__item">
+            <a class="features-tabs__link" href="#panel-3">Easy Sharing</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- PANELS -->
+    <section class="panels">
+      <h2 class="visually-hidden"></h2>
+      <ul class="panels__list">
+
+        <li id="panel-1" class="panels__item panels__item--active panel">
+          <div class="panel__container container">
+            <img class="panels__img" src="./img/fatures-img-click.png" alt="" aria-hidden="true" width="536"
+              height="346">
+
+            <div class="panel__content">
+              <h3 class="features__bookmark-head">Bookmark in one click</h3>
+              <p class="features__bookmark-content">Organize your bookmarks however you like. Our simple drag-and-drop
+                interface gives you complete control over how you manage your favourite sites.</p>
+              <a class="buttons button--blue" href="#">More Info</a>
+            </div>
+          </div>
+        </li>
+
+
+        <li id="panel-2" class="panels__item panel">
+          <div class="panel__container container">
+            <img class="panel__img" src="./img/features-img-intelligient.png" alt="" aria-hidden="true" width="468"
+              height="393">
+
+            <div class="panel__content">
+              <h3 class="features__bookmark-head">Intelligent search</h3>
+              <p class="features__bookmark-content">Our powerful search feature will help you find saved sites in no
+                time at all. No need to trawl through all of your bookmarks.</p>
+              <a class="buttons button--blue" href="#">More Info</a>
+            </div>
+          </div>
+        </li>
+
+        <li id="panel-3" class="panels__item panel">
+          <div class="panel__container container">
+            <img class="panel__img" src="./img/share-img.png" alt="" aria-hidden="true" width="440" height="380">
+
+            <div class="panel__content">
+              <h3 class="features__bookmark-head">Share your bookmarks</h3>
+              <p class="features__bookmark-content">Easily share your bookmarks and collections with others. Create a
+                shareable link that you can send at the click of a button.</p>
+              <a class="buttons button--blue" href="#">More Info</a>
+            </div>
+          </div>
+        </li>
+
+      </ul>
     </section>
 
 
@@ -136,8 +123,8 @@
         <div class="section-three">
 
           <div>
-            <h2 class="feature__heading download__heading">Download the extension</h2>
-            <p class="feature__text">We’ve got more browsers in the pipeline. Please do let us know if you’ve got a
+            <h2 class="features__title download__heading">Download the extension</h2>
+            <p class="features__desc">We’ve got more browsers in the pipeline. Please do let us know if you’ve got a
               favourite you’d like us to prioritize.</p>
           </div>
 
@@ -171,8 +158,8 @@
     <section>
       <div class="container">
         <div>
-          <h2 class="feature__heading download__heading">Frequently Asked Questions</h2>
-          <p class="feature__text">Here are some of our FAQs. If you have any other questions you’d like answered please
+          <h2 class="features__title download__heading">Frequently Asked Questions</h2>
+          <p class="features__desc">Here are some of our FAQs. If you have any other questions you’d like answered please
             feel free to email us.</p>
         </div>
 
@@ -236,7 +223,8 @@
 
           <div class="section__form">
             <form action="https://echo.htmlacademy.ru" method="POST">
-              <input class="email__item" type="email" minlength="4" maxlength="6" placeholder="Enter your email address" name="email-addres" aria-label="email adress" required>
+              <input class="email__item" type="email" minlength="4" maxlength="30"
+                placeholder="Enter your email address" name="email-addres" aria-label="email adress" required>
               <span class="form__span">Whoops, make sure it’s an email</span>
             </form>
             <button class="form__contact" type="submit">Contact Us</button>
@@ -254,24 +242,25 @@
             <img src="./img/footer-bookmark.svg" alt="" width="148" height="25">
           </a>
           <ul class="footer-icon">
-            <li class="footer__item"><a class="footer__link" href="#">FEATURES</a></li>
-            <li class="footer__item"><a class="footer__link" href="#">PRICING</a></li>
-            <li class="footer__item"><a class="footer__link contacts" href="#">CONTACT</a></li>
+            <li class="footer__item"><a class="footer__link" target="_blank" href="./features.html">FEATURES</a></li>
+            <li class="footer__item"><a class="footer__link" target="_blank" href="./pricing.html">PRICING</a></li>
+            <li class="footer__item"><a class="footer__link contacts" target="_blank" href="./contact.html">CONTACT</a>
+            </li>
           </ul>
         </div>
 
         <div class="footer__left">
           <a href="#">
-            <img class="facebook-icon" src="./img/facebook.svg" alt="" width="24" height="24">
+            <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z" fill="#fff"/></svg>
           </a>
 
           <a href="#">
-            <img class="twitter-icon" src="./img/twitter.svg" alt="" width="24" height="20">
+            <svg class="footer-icons fasebook-icon" width="24" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M24 2.557a9.83 9.83 0 01-2.828.775A4.932 4.932 0 0023.337.608a9.864 9.864 0 01-3.127 1.195A4.916 4.916 0 0016.616.248c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 011.671 1.149a4.93 4.93 0 001.523 6.574 4.903 4.903 0 01-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 01-2.224.084 4.928 4.928 0 004.6 3.419A9.9 9.9 0 010 17.54a13.94 13.94 0 007.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0024 2.557z"/></svg>
           </a>
         </div>
       </div>
     </div>
   </footer>
-  <script src="./js/main.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
